@@ -16,7 +16,6 @@ Este proyecto es una versión digital del popular juego Tres en línea, donde do
 
 - **Empate:** Si todas las casillas del tablero están ocupadas y no hay un ganador, se declara un empate.
 
-- **Historial de movimientos:** Los movimientos anteriores se registran para que los jugadores puedan retroceder en el tiempo y revisar la partida.
 
 ## Cómo jugar
 
