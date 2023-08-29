@@ -1,6 +1,6 @@
 # Tres en línea (Tic Tac Toe) con React
 
-¡Bienvenido a mi implementación del clásico juego Tres en línea (Tic Tac Toe) hecho con React! Puedes jugar al juego en vivo en [este enlace](https://cristian910.github.io/Tic-tac-toe-React).
+¡Bienvenido a mi implementación del clásico juego Tres en línea (Tic Tac Toe) hecho con React! Puedes jugar al juego en vivo en [este enlace](https://cristian910.github.io/Tic-Tac-Toe-React/).
 
 ## Descripción
 
