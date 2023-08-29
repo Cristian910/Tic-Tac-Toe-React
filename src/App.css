@@ -1,0 +1,84 @@
+.App {
+  background-color: #1a1c21;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  font-family: system-ui;
+}
+.title {
+  color: white;
+  font-size: 40px;
+}
+.game {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 50px 0;
+  gap: 20px;
+}
+.celda {
+  border: 1px solid white;
+  font-size: 40px;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 5%;
+  text-align: center;
+  width: 40px;
+  height: 55px;
+  cursor: pointer;
+}
+.celda:hover {
+  background-color: #4b4b4b
+}
+.selected {
+  background: rgb(50, 255, 47);
+  text-shadow: #282c34;
+}
+.turn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 0;
+}
+.modal-winner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color:rgba(0, 0, 0, 0.7);
+  display: grid;
+  place-items: center;
+}
+
+.modal-text {
+  background: #1a1a1c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  gap: 30px;
+  padding: 40px 20px;
+  border-radius: 5%;
+  color: aliceblue;
+  border: 1px solid white;
+}
+
+.btn-again {
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid aliceblue;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.btn-again:hover {
+  background-color: aliceblue;
+  color: #1a1a1c;
+  font-weight: 600;
+  transition: background-color 0.7s;
+}
