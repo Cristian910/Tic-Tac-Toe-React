@@ -1,6 +1,6 @@
 export const Turns = {
-    x: 'x',
-    o: 'o'
+    x: '❌',
+    o: '⚪'
   }
 export const winner_comb = [
     [0,1,2],

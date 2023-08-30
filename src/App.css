@@ -1,5 +1,4 @@
 .App {
-  background-color: #1a1c21;
   display: grid;
   place-items: center;
   margin: 0;
@@ -22,7 +21,7 @@
   color: white;
   border-radius: 5%;
   text-align: center;
-  width: 40px;
+  width: 55px;
   height: 55px;
   cursor: pointer;
 }
@@ -30,7 +29,7 @@
   background-color: #4b4b4b
 }
 .selected {
-  background: rgb(50, 255, 47);
+  background-color: #162868;
   text-shadow: #282c34;
 }
 .turn {
@@ -46,6 +45,7 @@
   width: 100%;
   top: 0;
   left: 0;
+  margin: 0;
   background-color:rgba(0, 0, 0, 0.7);
   display: grid;
   place-items: center;
